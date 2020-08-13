@@ -1,0 +1,82 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.nav-bar{
+  position:fixed;
+  top:0; left:0; 
+  width:100%;
+}
+article{
+background:url(https://previews.123rf.com/images/photoslash/photoslash1004/photoslash100400035/6822975-shabby-torn-book-cover-antique-background-with-scratched-texture.jpg);}
+@media (max-width: 100px) { 
+font-size:20px;
+}
+.flex{
+   display:flex;
+}
+.image{
+  padding:50px 0px 50px 200px;
+  
+}
+.hi{
+  text-align:center;
+ font-family: 'Pacifico', cursive;
+
+  font-size:60px;
+  color:brown;
+  }
+form{
+ text-align:center;
+  font-family: 'Indie Flower', cursive;
+
+  width: 30%;
+ height:25px;
+  
+  
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem
+  
+
+}
+.nav-link{
+  font-family: 'Indie Flower', cursive;
+  background-color:pink;
+  text-decoration: none;
+  color: black;;
+  padding: 1em;
+}
+footer{
+  font-size:20px
+   
+    color:white;
+}</style>
+<article>
+<head>
+  <header id="header"> 
+    <nav id="nav-bar" class="nav-bar">
+      <a href="#header-img" class="nav-link" id=".nav-link">Gallery</a>
+      <a href="#video" class="nav-link">Video gallery</a>
+      <a href="#footer" class="nav-link">Contact Us</a>
+    </nav>
+    <div class="hi"><strong> Antique Book Store</strong></div>
+    <img id="header-img" type="image" class="image" src="https://cms-assets.tutsplus.com/uploads/users/2660/posts/35188/image/Prebook-eBook-Landing-Page-Responsive-Bootstrap-RD7JT6.jpg" alt="Book Logo">
+
+    </head>
+    
+    </header>
+    <div class="flex">
+  <iframe id="video" class="image" width="697" height="392" src="https://www.youtube.com/embed/3VccalarFTU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+<form class="image" id="form" action="https://www.freecodecamp.com/email- submit">
+  <label><h2>Enter Name</h2><input type="text" placeholder="Name">
+  </label>
+  <label for="email"><h2>E-mail</h2> </label>
+    <input type="email" id="email" name="email" placeholder="#email" required>
+   
+  <label for="submit">
+    <div><input name="submit" id="submit" type="submit" value="Subscribe"/></div>
+  </form>
+  </div>
+<footer id="footer">For further assistance mail at antiquebookstore@gmail.com</footer>
+      </article>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
